@@ -1,0 +1,34 @@
+{
+  "products": {
+    "rows": 47,
+    "source_arithmetic": 36905.4,
+    "plotted_value": 36905.4
+  },
+  "countries": {
+    "rows": 77475,
+    "source_arithmetic": 1325346.21,
+    "plotted_value": 1325346.21
+  },
+  "daily": {
+    "rows": 3521,
+    "source_arithmetic": 114419.89000000001,
+    "plotted_value": 114419.89
+  },
+  "missing_customer_evidence": {
+    "rows": 135080,
+    "unique_source_rows": true
+  },
+  "monthly_credits": 47740.08,
+  "original_files_unchanged": [
+    "src/data_processing.py",
+    "src/metrics.py",
+    "src/utils.py",
+    "assets/styles.css",
+    ".streamlit/config.toml",
+    "requirements.txt",
+    "pyproject.toml",
+    "notebooks/01_data_cleaning.ipynb",
+    "notebooks/02_exploratory_analysis.ipynb",
+    "data/raw/Online Retail.xlsx"
+  ]
+}

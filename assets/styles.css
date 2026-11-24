@@ -1,0 +1,304 @@
+.stApp {
+  --rp-surface: #fff;
+  --rp-ink: #202630;
+  --rp-muted: #596373;
+  --rp-accent: #2457c5;
+  --rp-selected: #eaf0fc;
+  --rp-border: #dde1e7;
+  --rp-control-border: #7d899a;
+  --rp-space: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+[data-testid="stMainBlockContainer"] {
+  max-width: 1600px;
+  padding: 72px 32px 32px;
+  container: retail-main / inline-size;
+}
+
+[data-testid="stMainBlockContainer"] > [data-testid="stVerticalBlock"] {
+  gap: 16px;
+}
+
+.stApp [data-testid="stSidebar"] {
+  background: var(--rp-surface);
+  border-right: 1px solid var(--rp-border);
+}
+
+.stApp [data-testid="stSidebar"] h2 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  color: var(--rp-ink);
+  padding: 0;
+  letter-spacing: -0.5px;
+}
+
+.stApp [data-testid="stMain"] h1 {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 600;
+  padding: 0;
+  letter-spacing: -0.5px;
+}
+
+.stApp [data-testid="stMain"] h2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 0;
+  letter-spacing: 0;
+}
+
+.stApp [data-testid="stCaptionContainer"],
+.stApp [data-testid="stCaptionContainer"] p {
+  color: var(--rp-muted);
+  font-size: 13px;
+  line-height: 20px;
+  opacity: 1;
+}
+
+.st-key-page_header [data-testid="stVerticalBlock"] {
+  gap: var(--rp-space);
+}
+
+.st-key-navigation [role="radiogroup"] {
+  gap: 8px;
+}
+
+.st-key-navigation [role="radiogroup"] label {
+  min-height: 44px;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.st-key-navigation label:has(input:checked) {
+  background: var(--rp-selected);
+  color: var(--rp-accent);
+  font-weight: 600;
+}
+
+.st-key-navigation label:hover {
+  background: #f1f3f6;
+}
+
+.st-key-navigation label:has(input:checked):hover {
+  background: var(--rp-selected);
+}
+
+.st-key-filters {
+  padding: 8px 0 16px;
+  border-bottom: 1px solid var(--rp-border);
+}
+
+.stApp [data-testid="stDateInputField"],
+.stApp [data-testid="stMultiSelect"] .react-aria-ComboBox > [role="group"],
+.stApp [data-testid="stSelectbox"] [role="group"],
+.stApp [data-testid="stTextInputRootElement"],
+.stApp [data-testid="stNumberInputContainer"],
+.stApp [data-testid="stBaseButton-secondary"] {
+  border-color: var(--rp-control-border);
+  min-height: 44px;
+  border-radius: 4px;
+}
+
+.stApp [data-testid="stMultiSelectTagsContainer"] {
+  flex-wrap: wrap;
+  height: auto;
+  gap: 8px;
+  overflow: visible;
+  min-width: 0;
+}
+
+.stApp [data-testid="stMultiSelect"] .react-aria-ComboBox > [role="group"] {
+  height: auto;
+  max-height: none;
+}
+
+.stApp [data-testid="stMultiSelectTagsContainer"] input {
+  flex: 1 1 32px;
+  min-width: 32px;
+  width: 32px;
+}
+
+.stApp [data-testid="stMultiSelectTagsContainer"] [aria-label="Selected values"] {
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.stApp [data-testid="stMultiSelectTagsContainer"] [data-tag] {
+  max-width: 100%;
+  height: auto;
+  min-height: 28px;
+}
+
+.stApp [data-testid="stMultiSelectTagsContainer"] [data-tag] > span[title] {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-overflow: clip;
+  min-width: 0;
+}
+
+.st-key-kpi_grid {
+  background: var(--rp-surface);
+  border-top: 1px solid var(--rp-border);
+  border-bottom: 1px solid var(--rp-border);
+  padding: 8px 0;
+}
+
+.st-key-kpi_grid [data-testid="stMetric"] {
+  min-height: 104px;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.st-key-kpi_grid [data-testid="stColumn"] + [data-testid="stColumn"] {
+  border-left: 1px solid var(--rp-border);
+}
+
+.st-key-kpi_grid [data-testid="stMetricValue"] {
+  font-size: clamp(24px, 1.8vw, 28px);
+  font-weight: 600;
+  min-height: 40px;
+  line-height: 40px;
+}
+
+.st-key-kpi_grid [data-testid="stColumn"]:first-child [data-testid="stMetricValue"] {
+  font-size: clamp(28px, 2.2vw, 32px);
+}
+
+.st-key-kpi_grid [data-testid="stMetricLabel"] {
+  color: var(--rp-muted);
+}
+
+[class*="st-key-panel_"] {
+  background: var(--rp-surface);
+  border-color: var(--rp-border);
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.st-key-panel_insights {
+  background: transparent;
+  padding: 16px 0;
+  border-top: 1px solid var(--rp-border);
+}
+
+.st-key-revenue_aggregation [role="radio"],
+.st-key-product_ranking [role="radio"],
+.stApp [data-testid="stDownloadButton"] button {
+  min-height: 44px;
+}
+
+.stApp button:not(:disabled), .stApp summary, .stApp a[href], .stApp select,
+.stApp label:has(input[type="radio"]), .stApp label:has(input[type="checkbox"]) {
+  cursor: pointer;
+}
+
+.stApp button:disabled {
+  cursor: not-allowed;
+}
+
+.stApp :is(button, a, input, select, textarea, summary, [role="radio"], [data-tag]):focus-visible,
+.st-key-navigation label:focus-within {
+  outline: 3px solid var(--rp-accent);
+  outline-offset: 2px;
+}
+
+.stApp [data-testid="stMultiSelect"] .react-aria-ComboBox > [role="group"]:focus-within {
+  outline: 3px solid var(--rp-accent);
+  outline-offset: 2px;
+}
+
+.stApp [data-testid="stMultiSelect"] input:focus-visible {
+  outline: none;
+}
+
+@container retail-main (max-width: 900px) {
+  .st-key-kpi_grid [data-testid="stHorizontalBlock"],
+  .st-key-filters [data-testid="stHorizontalBlock"],
+  .st-key-overview_charts [data-testid="stHorizontalBlock"],
+  .st-key-performance_charts [data-testid="stHorizontalBlock"],
+  .st-key-overview_insights [data-testid="stHorizontalBlock"] {
+    flex-wrap: wrap;
+  }
+
+  .st-key-kpi_grid [data-testid="stColumn"],
+  .st-key-filters [data-testid="stColumn"] {
+    min-width: calc(50% - 8px);
+    flex: 1 1 calc(50% - 8px);
+  }
+
+  .st-key-kpi_grid [data-testid="stColumn"]:nth-child(odd) {
+    border-left: 0;
+  }
+
+  .st-key-kpi_grid [data-testid="stMetric"] {
+    padding: 8px;
+  }
+
+  .st-key-overview_charts [data-testid="stColumn"],
+  .st-key-performance_charts [data-testid="stColumn"],
+  .st-key-overview_insights [data-testid="stColumn"] {
+    min-width: 100%;
+    flex: 1 1 100%;
+  }
+}
+
+@container retail-main (max-width: 560px) {
+  .st-key-filters [data-testid="stColumn"]:first-child,
+  .st-key-filters [data-testid="stColumn"]:last-child,
+  .st-key-filters [data-testid="stColumn"]:has([data-tag]) {
+    min-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .st-key-kpi_grid [data-testid="stMetricValue"],
+  .st-key-kpi_grid [data-testid="stColumn"]:first-child [data-testid="stMetricValue"] {
+    font-size: 20px;
+  }
+
+  .st-key-kpi_grid [data-testid="stMetricLabel"] p {
+    font-size: 12px;
+  }
+
+  .st-key-panel_trend [data-testid="stColumn"] {
+    min-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+@container retail-main (max-width: 320px) {
+  .st-key-kpi_grid [data-testid="stColumn"] {
+    min-width: 100%;
+    flex-basis: 100%;
+    border-left: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  [data-testid="stMainBlockContainer"] {
+    padding: 72px 16px 16px;
+  }
+
+  .stApp [data-testid="stMain"] h1 {
+    font-size: 24px;
+  }
+
+  .stApp input {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stApp *, .stApp *::before, .stApp *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
