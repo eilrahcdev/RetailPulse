@@ -87,5 +87,5 @@ def data_quality_center(frame, evidence):
         st.caption(f"Page {page:,} of {pages:,} · 50 rows per page · Source cells as read by Pandas; workbook row includes the header. No source corrections are written.")
         st.download_button(
             "Download quality evidence", dataframe_csv(shown[columns]), "retailpulse-quality-evidence.csv",
-            "text/csv", icon=":material/download:",
+            "text/csv", icon=":material/download:", on_click="ignore",
         )

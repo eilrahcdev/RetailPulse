@@ -1,18 +1,18 @@
 [theme]
 base = "light"
-primaryColor = "#2457C5"
-backgroundColor = "#F5F6F8"
+primaryColor = "#2759FB"
+backgroundColor = "#F5F7FD"
 secondaryBackgroundColor = "#FFFFFF"
-textColor = "#202630"
+textColor = "#070C27"
 font = "Arial"
 baseFontSize = 16
-baseRadius = "0.25rem"
-buttonRadius = "0.25rem"
-borderColor = "#DDE1E7"
-dataframeBorderColor = "#DDE1E7"
-dataframeHeaderBackgroundColor = "#F1F3F6"
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+borderColor = "#DCE2F0"
+dataframeBorderColor = "#DCE2F0"
+dataframeHeaderBackgroundColor = "#EEF1F9"
 showWidgetBorder = true
-chartCategoricalColors = ["#2457C5", "#6B7483"]
+chartCategoricalColors = ["#2759FB", "#717B94"]
 
 [browser]
 gatherUsageStats = false

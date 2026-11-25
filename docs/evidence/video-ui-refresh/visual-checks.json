@@ -1,0 +1,1092 @@
+{
+  "layouts": [
+    {
+      "name": "after-desktop",
+      "viewport": 1440,
+      "width": 1440,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 298,
+          "scroll": 298,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(20, 101, 117)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-sales-analysis",
+      "viewport": 1440,
+      "width": 1440,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 298,
+          "scroll": 298,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£47,740.08",
+          "width": 337,
+          "scroll": 337,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "441",
+          "width": 337,
+          "scroll": 337,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£1,461,756.25",
+          "width": 337,
+          "scroll": 337,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(16, 87, 102)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-product-performance",
+      "viewport": 1440,
+      "width": 1440,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 298,
+          "scroll": 298,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(16, 87, 102)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-geographic-analysis",
+      "viewport": 1440,
+      "width": 1440,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 298,
+          "scroll": 298,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(16, 87, 102)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-data-explorer",
+      "viewport": 1440,
+      "width": 1440,
+      "values": [],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [],
+      "selected": [
+        {
+          "background": "rgb(16, 87, 102)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-data-quality-center",
+      "viewport": 1440,
+      "width": 1440,
+      "values": [
+        {
+          "text": "541,909",
+          "width": 298,
+          "scroll": 298,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "140,345",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "2,517",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "5,268",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£1,755,276.64",
+          "width": 514,
+          "scroll": 514,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£24,573.74",
+          "width": 514,
+          "scroll": 514,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(16, 87, 102)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-1024",
+      "viewport": 1024,
+      "width": 1024,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 290,
+          "scroll": 290,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 290,
+          "scroll": 290,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 290,
+          "scroll": 290,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 290,
+          "scroll": 290,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(16, 87, 102)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-768",
+      "viewport": 768,
+      "width": 768,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 170,
+          "scroll": 170,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 170,
+          "scroll": 170,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 170,
+          "scroll": 170,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 170,
+          "scroll": 170,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(16, 87, 102)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-375",
+      "viewport": 375,
+      "width": 375,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 140,
+          "scroll": 140,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 140,
+          "scroll": 140,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 140,
+          "scroll": 140,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 140,
+          "scroll": 140,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(20, 101, 117)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-320",
+      "viewport": 320,
+      "width": 320,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 264,
+          "scroll": 264,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 264,
+          "scroll": 264,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 264,
+          "scroll": 264,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 264,
+          "scroll": 264,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(20, 101, 117)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-844",
+      "viewport": 844,
+      "width": 844,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 208,
+          "scroll": 208,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 208,
+          "scroll": 208,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 208,
+          "scroll": 208,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 208,
+          "scroll": 208,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "transition": "0.18s, 0.18s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(16, 87, 102)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "name": "after-reduced-motion",
+      "viewport": 1440,
+      "width": 1440,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 298,
+          "scroll": 298,
+          "color": "rgb(255, 255, 255)"
+        },
+        {
+          "text": "2,769",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£545.14",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "754,507",
+          "width": 201,
+          "scroll": 201,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£47,740.08",
+          "width": 337,
+          "scroll": 337,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "441",
+          "width": 337,
+          "scroll": 337,
+          "color": "rgb(36, 59, 60)"
+        },
+        {
+          "text": "£1,461,756.25",
+          "width": 337,
+          "scroll": 337,
+          "color": "rgb(36, 59, 60)"
+        }
+      ],
+      "header": [
+        {
+          "transform": "none",
+          "transition": "0s",
+          "opacity": "1"
+        }
+      ],
+      "cards": [
+        {
+          "background": "rgb(23, 75, 79)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(232, 239, 229)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(244, 231, 219)",
+          "radius": "14px"
+        },
+        {
+          "background": "rgb(228, 238, 240)",
+          "radius": "14px"
+        }
+      ],
+      "selected": [
+        {
+          "background": "rgb(16, 87, 102)",
+          "color": "rgb(255, 255, 255)"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "height": 16
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "",
+          "height": 22
+        },
+        {
+          "text": "filter_alt_offReset filters",
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "Real-workbook default KPIs match baseline",
+    "Computed palette contrast, visible revenue help icon, full-width navigation",
+    "Actual navigation triggers scoped header transitions",
+    "Reduced motion disables spatial transitions",
+    "Visible keyboard focus and Enter activation"
+  ],
+  "contrast": [
+    {
+      "name": "Primary/canvas",
+      "foreground": "#243b3c",
+      "background": "#f5f4ef",
+      "min": 4.5,
+      "ratio": 10.798870785557252
+    },
+    {
+      "name": "Secondary/canvas",
+      "foreground": "#526568",
+      "background": "#f5f4ef",
+      "min": 4.5,
+      "ratio": 5.575559898425324
+    },
+    {
+      "name": "Selected navigation",
+      "foreground": "#ffffff",
+      "background": "#146575",
+      "min": 4.5,
+      "ratio": 6.670716703633864
+    },
+    {
+      "name": "Revenue",
+      "foreground": "#ffffff",
+      "background": "#174b4f",
+      "min": 4.5,
+      "ratio": 9.741321001794589
+    },
+    {
+      "name": "Revenue help",
+      "foreground": "#dcece8",
+      "background": "#174b4f",
+      "min": 3,
+      "ratio": 7.9816436215576845
+    },
+    {
+      "name": "Orders label",
+      "foreground": "#526568",
+      "background": "#e8efe5",
+      "min": 4.5,
+      "ratio": 5.236398564770204
+    },
+    {
+      "name": "AOV label",
+      "foreground": "#526568",
+      "background": "#f4e7db",
+      "min": 4.5,
+      "ratio": 5.058244534066924
+    },
+    {
+      "name": "Units label",
+      "foreground": "#526568",
+      "background": "#e4eef0",
+      "min": 4.5,
+      "ratio": 5.200632172380297
+    },
+    {
+      "name": "Chart comparison",
+      "foreground": "#6b7a7d",
+      "background": "#ffffff",
+      "min": 3,
+      "ratio": 4.463235298754447
+    },
+    {
+      "name": "Input boundary",
+      "foreground": "#7c8d89",
+      "background": "#ffffff",
+      "min": 3,
+      "ratio": 3.483629076838731
+    }
+  ],
+  "headerTransitions": [
+    {
+      "property": "transform",
+      "time": 6137.5
+    },
+    {
+      "property": "opacity",
+      "time": 6137.5
+    },
+    {
+      "property": "transform",
+      "time": 8280.79999999702
+    },
+    {
+      "property": "opacity",
+      "time": 8280.89999999851
+    },
+    {
+      "property": "transform",
+      "time": 9511.69999999553
+    },
+    {
+      "property": "opacity",
+      "time": 9511.69999999553
+    },
+    {
+      "property": "transform",
+      "time": 10383.89999999851
+    },
+    {
+      "property": "opacity",
+      "time": 10384
+    },
+    {
+      "property": "transform",
+      "time": 11863.89999999851
+    },
+    {
+      "property": "opacity",
+      "time": 11863.89999999851
+    }
+  ]
+}

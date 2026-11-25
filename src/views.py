@@ -130,7 +130,7 @@ def products_panel(selected, full=False):
             },
         )
         st.download_button("Download product performance", dataframe_csv(products),
-                           "retailpulse-products.csv", "text/csv", icon=":material/download:")
+                           "retailpulse-products.csv", "text/csv", icon=":material/download:", on_click="ignore")
 
 
 def country_panel(selected, full=False):
@@ -168,7 +168,7 @@ def country_panel(selected, full=False):
             },
         )
         st.download_button("Download country performance", dataframe_csv(countries),
-                           "retailpulse-countries.csv", "text/csv", icon=":material/download:")
+                           "retailpulse-countries.csv", "text/csv", icon=":material/download:", on_click="ignore")
 
 
 def insights_panel(selected, start, end):
@@ -252,7 +252,7 @@ def sales_analysis(selected, previous, start, end):
             monthly_credit_table = monthly_credits(selected)
             st.dataframe(monthly_credit_table, hide_index=True, width="stretch", row_height=32, column_config=credit_columns)
             st.caption("Only the selected dates contribute to each calendar month; edge months may be partial.")
-            st.download_button("Download monthly credits", dataframe_csv(monthly_credit_table), "retailpulse-monthly-credits.csv", "text/csv", icon=":material/download:")
+            st.download_button("Download monthly credits", dataframe_csv(monthly_credit_table), "retailpulse-monthly-credits.csv", "text/csv", icon=":material/download:", on_click="ignore")
 
 
 def data_explorer(selected, start, end):
@@ -307,7 +307,7 @@ def data_explorer(selected, start, end):
         )
         st.download_button(
             "Download filtered transactions", transactions_csv(shown),
-            f"retailpulse-transactions-{start}-{end}.csv", "text/csv", icon=":material/download:",
+            f"retailpulse-transactions-{start}-{end}.csv", "text/csv", icon=":material/download:", on_click="ignore",
         )
 
 

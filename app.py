@@ -16,6 +16,7 @@ from src import views
 
 
 ROOT = Path(__file__).resolve().parent
+LOGO_PATH = ROOT / "assets" / "retailpulse-logo.png"
 DATA_PATH = ROOT / "data" / "raw" / "Online Retail.xlsx"
 PAGES = {
     "Overview": ("Sales Overview", "Positive sales, order activity, and recorded credits."),
@@ -30,7 +31,10 @@ PAGES = {
 def source_attribution():
     st.caption("Source: UCI Online Retail · Chen, D. (2015) · CC BY 4.0 · All monetary values in GBP")
 
-st.set_page_config(page_title="RetailPulse | Retail Sales Intelligence", layout="wide")
+st.set_page_config(
+    page_title="RetailPulse | Retail Sales Intelligence", page_icon=str(LOGO_PATH), layout="wide",
+)
+st.logo(str(LOGO_PATH), size="large", icon_image=str(LOGO_PATH))
 st.markdown(f"<style>{(ROOT / 'assets' / 'styles.css').read_text(encoding='utf-8')}</style>", unsafe_allow_html=True)
 
 
@@ -65,23 +69,28 @@ def reset_filters():
 
 
 with st.sidebar:
-    st.markdown("## RetailPulse")
-    st.caption("Retail Sales Intelligence")
-    page = st.radio("Analysis", list(PAGES), key="navigation")
-    st.divider()
-    with st.expander("Dataset & methodology"):
-        uploaded = st.file_uploader("Upload UCI Online Retail workbook", type=["xlsx"], key="workbook_upload")
-        exclude_duplicates = st.toggle(
-            "Exclude exact duplicate rows", value=False, key="exclude_duplicates",
-            help="Off by default. Exact repeated source rows may be legitimate invoice lines.",
-        )
-        st.caption("Uploads are used in memory and do not replace the local workbook.")
-        st.link_button("Official UCI dataset", "https://archive.ics.uci.edu/dataset/352/online+retail", icon=":material/open_in_new:")
-    st.caption("Python analytics portfolio project")
-    st.caption("Historical transactions · Currency: GBP")
+    with st.container(key="sidebar_brand", horizontal=True, wrap=False, vertical_alignment="center"):
+        st.image(str(LOGO_PATH), width=44)
+        with st.container(key="sidebar_brand_text"):
+            st.markdown("## RetailPulse")
+            st.caption("Retail Sales Intelligence")
+    page = st.radio("Analysis", list(PAGES), key="navigation", width="stretch", label_visibility="collapsed")
+    with st.container(key="sidebar_tools"):
+        with st.expander("Dataset & methodology"):
+            uploaded = st.file_uploader("Upload UCI Online Retail workbook", type=["xlsx"], key="workbook_upload")
+            exclude_duplicates = st.toggle(
+                "Exclude exact duplicate rows", value=False, key="exclude_duplicates",
+                help="Off by default. Exact repeated source rows may be legitimate invoice lines.",
+            )
+            st.caption("Uploads are used in memory and do not replace the local workbook.")
+            st.link_button("Official UCI dataset", "https://archive.ics.uci.edu/dataset/352/online+retail", icon=":material/open_in_new:")
+    with st.container(key="sidebar_footer"):
+        st.markdown("**UCI Online Retail**")
+        st.caption("Historical transactions · Currency: GBP")
+        st.caption("Python analytics portfolio project")
 
 title, subtitle = PAGES[page]
-with st.container(key="page_header"):
+with st.container(key=f"page_header_{page.replace(' ', '_')}"):
     st.title(title)
     st.caption(subtitle)
 

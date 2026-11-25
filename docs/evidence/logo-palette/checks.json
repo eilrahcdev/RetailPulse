@@ -1,0 +1,167 @@
+{
+  "checks": [
+    "Logo colors render consistently in native theme, CSS, controls, and charts",
+    "Brand text, selected controls, cyan icon, and input boundaries meet contrast thresholds",
+    "Aggregation and keyboard reset work with logo-blue focus",
+    "All six navigation destinations render without exceptions",
+    "Desktop/tablet/phone layouts and reduced-motion behavior preserved",
+    "Real-workbook KPIs unchanged; no browser errors"
+  ],
+  "layouts": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "scroll": 1440,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 298,
+          "scroll": 298
+        },
+        {
+          "text": "2,769",
+          "width": 201,
+          "scroll": 201
+        },
+        {
+          "text": "£545.14",
+          "width": 201,
+          "scroll": 201
+        },
+        {
+          "text": "754,507",
+          "width": 201,
+          "scroll": 201
+        }
+      ]
+    },
+    {
+      "name": "width-768",
+      "width": 768,
+      "scroll": 768,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 312,
+          "scroll": 312
+        },
+        {
+          "text": "2,769",
+          "width": 312,
+          "scroll": 312
+        },
+        {
+          "text": "£545.14",
+          "width": 312,
+          "scroll": 312
+        },
+        {
+          "text": "754,507",
+          "width": 312,
+          "scroll": 312
+        }
+      ]
+    },
+    {
+      "name": "width-375",
+      "width": 375,
+      "scroll": 375,
+      "values": [
+        {
+          "text": "£1,509,496.33",
+          "width": 140,
+          "scroll": 140
+        },
+        {
+          "text": "2,769",
+          "width": 140,
+          "scroll": 140
+        },
+        {
+          "text": "£545.14",
+          "width": 140,
+          "scroll": 140
+        },
+        {
+          "text": "754,507",
+          "width": 140,
+          "scroll": 140
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "renderedColors": {
+    "canvas": "rgb(245, 247, 253)",
+    "nav": "rgb(39, 89, 251)",
+    "card": "rgb(6, 10, 35)",
+    "icon": "rgb(61, 170, 253)",
+    "selected": "rgb(64, 78, 253)",
+    "chart": "#2759FB"
+  },
+  "contrast": [
+    {
+      "name": "Navigation",
+      "fg": "#ffffff",
+      "bg": "#2759fb",
+      "min": 4.5,
+      "ratio": 5.373282826753532
+    },
+    {
+      "name": "Revenue",
+      "fg": "#ffffff",
+      "bg": "#060a23",
+      "min": 4.5,
+      "ratio": 19.527074149753147
+    },
+    {
+      "name": "Cyan help icon",
+      "fg": "#3daafd",
+      "bg": "#060a23",
+      "min": 3,
+      "ratio": 7.779846613453425
+    },
+    {
+      "name": "Segmented selection",
+      "fg": "#404efd",
+      "bg": "#ffffff",
+      "min": 4.5,
+      "ratio": 5.63588446027844
+    },
+    {
+      "name": "Muted on canvas",
+      "fg": "#56617b",
+      "bg": "#f5f7fd",
+      "min": 4.5,
+      "ratio": 5.780548098427413
+    },
+    {
+      "name": "Orders label",
+      "fg": "#56617b",
+      "bg": "#e9efff",
+      "min": 4.5,
+      "ratio": 5.3825495330417965
+    },
+    {
+      "name": "AOV label",
+      "fg": "#56617b",
+      "bg": "#efedff",
+      "min": 4.5,
+      "ratio": 5.374438487533243
+    },
+    {
+      "name": "Units label",
+      "fg": "#56617b",
+      "bg": "#e7f5ff",
+      "min": 4.5,
+      "ratio": 5.573439980162152
+    },
+    {
+      "name": "Control border",
+      "fg": "#80899f",
+      "bg": "#ffffff",
+      "min": 3,
+      "ratio": 3.5019005931402214
+    }
+  ]
+}

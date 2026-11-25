@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "name": "Original November KPIs preserved",
+      "detail": ""
+    },
+    {
+      "name": "Actual products chart click and Back",
+      "detail": "{\"value\":\"DOT\",\"revenue\":36905.4}"
+    },
+    {
+      "name": "Actual countries chart click and Back",
+      "detail": "{\"value\":\"United Kingdom\",\"revenue\":1325346.21}"
+    },
+    {
+      "name": "Actual current-period line point and Back",
+      "detail": "{\"x\":834.3299999999999,\"y\":394.425,\"date\":\"2011-11-14T00:00:00.000000\",\"revenue\":114419.89}"
+    },
+    {
+      "name": "Keyboard/table bucket drilldown",
+      "detail": "Partial week clipped to 1-6 November; Back restored weekly mode"
+    },
+    {
+      "name": "Full-source and filtered quality audits",
+      "detail": "Original cells, all 135,080 missing-customer records, explicit source scope"
+    },
+    {
+      "name": "Observed credit composition, country, item, monthly tabs and CSV",
+      "detail": "£47,740.08"
+    },
+    {
+      "name": "Mobile quality layout and browser runtime",
+      "detail": "No page overflow, clipped values, console errors, or page exceptions"
+    }
+  ],
+  "errors": []
+}

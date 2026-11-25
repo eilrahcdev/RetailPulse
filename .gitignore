@@ -2,6 +2,15 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
 .ipynb_checkpoints/
 .env
 .env.*
@@ -23,6 +32,17 @@ build/
 dist/
 *.egg-info/
 .jupyter/
+.idea/
+
+# Local browser-test output; documented evidence in docs/evidence stays versioned.
+/playwright-report/
+/test-results/
+/blob-report/
+
+# Dashboard downloads saved locally, separate from source data and test fixtures.
+/exports/
+/retailpulse-*.csv
+
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*

@@ -79,7 +79,7 @@ def selected_target(figure, kind, point, aggregation="Daily"):
 
 def chart_selection(figure, kind, event, key, aggregation="Daily"):
     points = event.get("selection", {}).get("points", [])
-    st.caption("Select one blue current-period point, then inspect its records." if kind == "revenue"
+    st.caption("Select one current-period point on the solid line, then inspect its records." if kind == "revenue"
                else "Select one bar, then inspect its matching positive-sales records.")
     if not points:
         return

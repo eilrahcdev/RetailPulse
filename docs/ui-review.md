@@ -1,5 +1,9 @@
 # RetailPulse UI/UX review
 
+This is the 23 November review. See the [24 November video refinement](video-ui-refresh.md)
+and [25 November logo palette alignment](logo-palette.md) for subsequent changes.
+The [sidebar refinement](sidebar-refinement.md) records the latest navigation work.
+
 Date: 2026-11-23. Scope: presentation and usability within the existing Streamlit
 application. Design authority: the user's Swiss/enterprise brief and local
 UI UX Pro Max skill. Canonical rules: `design-system/retailpulse/MASTER.md`.

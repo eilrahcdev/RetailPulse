@@ -8,11 +8,11 @@ import plotly.graph_objects as go
 from src.metrics import daily_sales
 
 
-ACCENT = "#2457C5"
-INK = "#202630"
-MUTED = "#596373"
-COMPARISON = "#6B7483"
-GRID = "#E8EBEF"
+ACCENT = "#2759FB"
+INK = "#070C27"
+MUTED = "#56617B"
+COMPARISON = "#717B94"
+GRID = "#E8ECF5"
 FONT = "Arial, Helvetica, sans-serif"
 
 
@@ -22,7 +22,7 @@ def finish(figure: go.Figure, height: int = 300, money_axis: bool = True) -> go.
         margin=dict(l=8, r=24, t=40, b=16),
         paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family=FONT, color=INK, size=12),
-        hoverlabel=dict(bgcolor="white", bordercolor="#DDE1E7", font_color=INK, font_size=13),
+        hoverlabel=dict(bgcolor="white", bordercolor="#DCE2F0", font_color=INK, font_size=13),
         legend=dict(orientation="h", y=1.12, x=0, font_size=12),
         hovermode="x unified",
         dragmode=False,

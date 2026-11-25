@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Units ranking, complete product/country exports, repeat download",
+    "Header remains mounted and does not replay entrance on filter changes",
+    "Country/product filters, no-match recovery, reset",
+    "Duplicate toggle, invalid upload recovery, real 30-row upload, local workbook restore",
+    "Explorer keyboard search, page-size change, page 2, empty search and recovery",
+    "Mobile sidebar navigation and 200 percent CSS zoom",
+    "No browser console errors or page exceptions"
+  ],
+  "errors": [],
+  "unitRanking": {
+    "code": "23084",
+    "units": 14954,
+    "hover": "%{customdata[0]}<br>Code: %{customdata[1]}<br>Units: %{x:,.2f}<extra></extra>"
+  }
+}
